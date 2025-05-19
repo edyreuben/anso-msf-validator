@@ -5,5 +5,5 @@ services:
     plan: free
     region: oregon
     buildCommand: pip install -r requirements.txt
-    startCommand: voila --port=$PORT --no-browser --enable_nbextensions=True anso_msf_validator.ipynb
+    startCommand: voila --port=$PORT --no-browser --Voila.ip=0.0.0.0 anso_msf_validator.ipynb
     autoDeploy: false

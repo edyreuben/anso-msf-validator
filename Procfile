@@ -1,1 +1,1 @@
-web: voila --port=$PORT --no-browser --enable_nbextensions=True anso_msf_validator.ipynb
+web: voila --port=$PORT --no-browser --Voila.ip=0.0.0.0 anso_msf_validator.ipynb
