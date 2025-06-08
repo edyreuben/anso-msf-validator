@@ -1,3 +1,4 @@
+voila==0.5.7
 requests==2.32.3
 dataframe_image==0.2.7
 pandas==2.2.3
